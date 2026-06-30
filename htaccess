@@ -1,0 +1,53 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page67861795.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^oldbutgold$ page60697929.html [NC]
+RewriteRule ^oldbutgold/$ page60697929.html [NC]
+
+RewriteRule ^zima$ page61270731.html [NC]
+RewriteRule ^zima/$ page61270731.html [NC]
+
+RewriteRule ^demiseason$ page61368705.html [NC]
+RewriteRule ^demiseason/$ page61368705.html [NC]
+
+RewriteRule ^leto$ page61368785.html [NC]
+RewriteRule ^leto/$ page61368785.html [NC]
+
+RewriteRule ^zakaz$ page61368825.html [NC]
+RewriteRule ^zakaz/$ page61368825.html [NC]
+
+RewriteRule ^yhod$ page62101293.html [NC]
+RewriteRule ^yhod/$ page62101293.html [NC]
+
+RewriteRule ^yhodforma$ page62102107.html [NC]
+RewriteRule ^yhodforma/$ page62102107.html [NC]
+
+RewriteRule ^yhodsumka$ page62102121.html [NC]
+RewriteRule ^yhodsumka/$ page62102121.html [NC]
+
+RewriteRule ^yhodvelo$ page65433005.html [NC]
+RewriteRule ^yhodvelo/$ page65433005.html [NC]
+
+RewriteRule ^platno$ page61801883.html [NC]
+RewriteRule ^platno/$ page61801883.html [NC]
+
+RewriteRule ^oborudovanievelo$ page62356563.html [NC]
+RewriteRule ^oborudovanievelo/$ page62356563.html [NC]
+
+RewriteRule ^oborudovanieavto$ page62356619.html [NC]
+RewriteRule ^oborudovanieavto/$ page62356619.html [NC]
+
+RewriteRule ^oborudovaniemoscow$ page66576645.html [NC]
+RewriteRule ^oborudovaniemoscow/$ page66576645.html [NC]
+
+RewriteRule ^sumki$ page73344871.html [NC]
+RewriteRule ^sumki/$ page73344871.html [NC]
+
+
